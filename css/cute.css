@@ -1,0 +1,154 @@
+<style>
+	/* Headings */
+	title {
+		font-family: "Tangerine", serif;
+		font-size: 48px;    
+		clear: both;        
+		text-align: center; 
+		margin: 0px;        
+		line-height: normal;
+	}
+	h1,h2,h3,h4,h5,h6 {
+		clear: both;
+		font-family: "Handlee", serif;
+		font-size: 48px;
+		font-weight: normal;
+		margin: 0px 0px;
+	}
+	h1 {
+		font-size: 280%;
+		text-align: center;
+		color: #ef7573;
+		margin: 0 0 20px 0;
+		font-family: "Tangerine", serif;
+	  	text-shadow: 4px 4px 4px #aaa;
+	}
+	h2 {
+		font-size: 130%;
+		margin: 20px 0 5px 0;
+	  	text-shadow: 4px 4px 4px #aaa;
+	}
+	h3 {
+		margin: 20px 0 0px 0;
+		font-size: 100%;
+	}
+	h4 {
+		font-size: 80%;
+	}
+	h5 {
+		font-size: 140%;
+	}
+	h6 {
+		font-size: 120%;
+	}
+	hr {
+		background-color: #ccc;
+		border: 0;
+		height: 1px;
+		margin-bottom: 1.5em;
+	}
+	p{
+		font-family: 'Handlee', serif;
+	}
+	/* Lists */
+	ul {
+		list-style-type: none;
+		margin-top: 5px;
+		margin-left: -40px;
+
+		}
+	ul.side{
+		margin-top: 5px;
+		margin-left: -30px;
+	}
+	li{
+		font-family: "Handlee", serif;
+	}
+	li.side{
+		font-family: "Handlee", serif;
+		font-size: 20px;
+		padding: 3px;
+		width: 150px;
+	  	text-shadow: 4px 2px 4px #aaa;
+	}
+	a{
+		color: #ef7573;
+	}
+	/* Video and Image*/
+	video{
+		position: relative;
+/*		left: -10px; */
+		display: block;
+		border-radius: 1.5em;
+		padding: 10px 0 10px 0;
+	}
+	img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		max-height: 290px;
+		max-width: 480px;
+		padding: 10px;
+		border-radius: 3em;
+	}
+	iframe.center{
+		display: block;
+		width: 550px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	/* GENERAL */
+	body{
+		background-color: #FFDAB9; 
+	}
+	#container{ 
+		z-index: 2;
+		top: 0px;
+		padding: 0px;
+		position: absolute;
+		left: 30%;
+		/* Insert image */
+		background-image: url();
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-color: #FFDAB9;
+		background-clip: content-box;
+		border-radius: 5em;
+		/* So that it looks ok on small and big screens alike */
+		min-width: 680px;
+		max-width: 680px;
+		}
+	#header_img{
+		top: 0;
+		padding: 0px;
+	}
+	/* Main writing space, bordered with colored squares */
+	#content{
+		background-color: #FAEBD7;
+		position: relative;
+		margin: 30% 0 10% 0;
+		border-radius: 5px 10px 5px 10px;
+		padding: 50px;
+		/* Insert image */
+	    border-image: url() 27 round;
+		border-image-width: 10px;
+		border-image-outset: 5px;
+		min-height: 400px;
+		min-width: 500px;
+		max-width: 680px;
+		 
+	}
+/* Side_bar */
+	#side_nav{
+		position: absolute;
+		background-color: #FAEBD7;
+		left: -200px;
+		top: 50px;
+		width: 300px;
+		border-radius: 5px 10px 5px 10px;
+		z-index: -1;
+		padding: 20px;
+		border-style: dashed;
+		border-color: #ef7573;
+	}
+</style>
