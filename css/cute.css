@@ -3,10 +3,11 @@ By Daniel Curto-Millet (curtomil)
 First attempt at css coding. Not supported by ie. 
 Licensed under CC-BY-SA
 */
+
 <style>
 	/* Headings */
 	title {
-		font-family: "Tangerine", serif;
+		font-family: "Tangerine", cursive; 
 		font-size: 48px;    
 		clear: both;        
 		text-align: center; 
@@ -15,7 +16,7 @@ Licensed under CC-BY-SA
 	}
 	h1,h2,h3,h4,h5,h6 {
 		clear: both;
-		font-family: "Handlee", serif;
+		font-family: "Handlee", cursive;
 		font-size: 48px;
 		font-weight: normal;
 		margin: 0px 0px;
@@ -25,7 +26,7 @@ Licensed under CC-BY-SA
 		text-align: center;
 		color: #ef7573;
 		margin: 0 0 20px 0;
-		font-family: "Tangerine", serif;
+		font-family: "Tangerine", cursive;
 	  	text-shadow: 4px 4px 4px #aaa;
 	}
 	h2 {
@@ -53,7 +54,7 @@ Licensed under CC-BY-SA
 		margin-bottom: 1.5em;
 	}
 	p{
-		font-family: 'Handlee', serif;
+		font-family: 'Handlee', cursive;
 	}
 	/* Lists */
 	ul {
@@ -67,10 +68,10 @@ Licensed under CC-BY-SA
 		margin-left: -30px;
 	}
 	li{
-		font-family: "Handlee", serif;
+		font-family: "Handlee", cursive;
 	}
 	li.side{
-		font-family: "Handlee", serif;
+		font-family: "Handlee", cursive;
 		font-size: 20px;
 		padding: 3px;
 		width: 150px;
@@ -82,7 +83,6 @@ Licensed under CC-BY-SA
 	/* Video and Image*/
 	video{
 		position: relative;
-/*		left: -10px; */
 		display: block;
 		border-radius: 1.5em;
 		padding: 10px 0 10px 0;
@@ -113,7 +113,7 @@ Licensed under CC-BY-SA
 		position: absolute;
 		left: 30%;
 		/* Insert image */
-		background-image: url();
+		background-image: url(../img/logo.png);
 		background-size: 100%;
 		background-repeat: no-repeat;
 		background-color: #FFDAB9;
@@ -126,6 +126,7 @@ Licensed under CC-BY-SA
 	#header_img{
 		top: 0;
 		padding: 0px;
+
 	}
 	/* Main writing space, bordered with colored squares */
 	#content{
@@ -135,7 +136,7 @@ Licensed under CC-BY-SA
 		border-radius: 5px 10px 5px 10px;
 		padding: 50px;
 		/* Insert image */
-	    border-image: url() 27 round;
+	    border-image: url(../img/border.png) 27 round;
 		border-image-width: 10px;
 		border-image-outset: 5px;
 		min-height: 400px;
